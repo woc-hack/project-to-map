@@ -1,0 +1,6 @@
+sample-projects.txt:
+	File with the term to match for all projects, one per line
+	Each line should have the following format: ';[project_foo]'
+
+sample-projects.csv:
+	a csv with the following columns: project, truth [1 for Foundation, 1 for non], inference [1 for Foundation]
