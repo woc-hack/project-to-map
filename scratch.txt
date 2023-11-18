@@ -1,0 +1,9 @@
+To get readmes for the sampled projects
+for i in {0..127}; do zcat /da?_data/basemaps/gz/lc2PdatFullV"$i".s | grep -iFf 'selected_repositories.txt' | cut -d\; -f2,6 | awk -F\; '{print $2";"$1}' ; done | lookup/lsort 100G -t\;  > temp.out
+for the 128 files; look at the last commit 2 Project map | get any and all of the projects in the sample | keep only the data we need | rearrange the columns (sort only works on the first column) | sort ; finish the loop > save in a temp file
+
+for i in {0..127}; do cat temp.out | join -t\; - <(zcat /da?_data/basemaps/gz/t2allFullV"$i".gz | grep -iF "readme") ; done > t2read
+for the 128 files;  get the first argument for join | merge the two files < look in tree 2 all | look for a readme file ; finish the loop > save to this file
+
+
+sed -i 's|\r||' file
