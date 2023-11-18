@@ -1,0 +1,12 @@
+The sample set has been divided into two, half given to Curtis and half given to Steve. Additionally, each researcher was given 10 of the other's set to double sample.
+
+While we wait for WoC to go the raw readme's, we will follow the following process:
+
+* each item from the list will be added to https://github.com/[entry] with the _ within the entry changed to a /
+* click Readme in the root directory
+* click raw
+* select all and copy
+* add the text to the following prompt
+
+“Based on the following README file, can you identify which organization or open-source software (OSS) community this project belongs to? It would be good to have a hieratical structure to show the community, organization, project, and maybe affiliation.” 
+[readme]
