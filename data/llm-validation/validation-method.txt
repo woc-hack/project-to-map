@@ -8,5 +8,33 @@ While we wait for WoC to go the raw readme's, we will follow the following proce
 * select all and copy
 * add the text to the following prompt
 
-“Based on the following README file, can you identify which organization or open-source software (OSS) community this project belongs to? It would be good to have a hieratical structure to show the community, organization, project, and maybe affiliation.” 
+Based on the following README file, can you identify which organization or open-source software (OSS) community this project belongs to (from the list I give you)? It would be good to have a hieratical structure to show the community, organization, project, and maybe affiliation.  Also, please list the communication channels mentioned in the file. I would like the information structured for a CSV file output, with each piece of information clearly defined and separated for easy future reference. List: Apache Software Foundation
+Cloud Foundry Foundation
+Django Software Foundation
+Document Foundation
+.NET Foundation
+Eclipse Foundation
+Fintech Open Source Foundation
+FreeBSD Foundation
+F# Foundation
+Gentoo Foundation
+GNOME Foundation
+Kuali
+Mozilla Foundation
+NetBSD Foundation
+NLnet Labs Foundation
+Open Source Geospatial Foundation
+OpenBSD Foundation
+OpenSourceMatters
+OpenStack Foundation
+OpenStreetMap Foundation
+Parrot Foundation
+Plone Foundation
+Python Software Foundation
+Sahana Foundation
+The Perl Foundation
+Wikimedia Foundation
+X.Org Foundation LLC
+Readme:
+
 [readme]
